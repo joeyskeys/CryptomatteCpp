@@ -1,14 +1,14 @@
 // Copyright (c) 2012 The Foundry Visionmongers Ltd.  All Rights Reserved.
 
 // Standard plug-in include files.
-#include "DDImage/PixelIop.h"
-#include "DDImage/Row.h"
-#include "DDImage/Knobs.h"
-#include "DDImage/NukeWrapper.h"
-#include "DDImage/DDMath.h"
-#include "DDImage/Pixel.h"
-#include "DDImage/Metadata.h"
-#include "DDImage/Enumeration_KnobI.h"
+#include <DDImage/PixelIop.h>
+#include <DDImage/Row.h>
+#include <DDImage/Knobs.h>
+#include <DDImage/NukeWrapper.h>
+#include <DDImage/DDMath.h>
+#include <DDImage/Pixel.h>
+#include <DDImage/Metadata.h>
+#include <DDImage/Enumeration_KnobI.h>
 
 #include <rapidjson/document.h>
 #include <rapidjson/stringbuffer.h>
