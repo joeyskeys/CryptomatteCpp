@@ -10,8 +10,8 @@
 #include <DDImage/MetaData.h>
 #include <DDImage/Enumeration_KnobI.h>
 
-//#include <rapidjson/document.h>
-//#include <rapidjson/stringbuffer.h>
+#include <rapidjson/document.h>
+#include <rapidjson/stringbuffer.h>
 
 #include <string>
 #include <cstring>
