@@ -11,9 +11,8 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 find_package(Nuke)
 include_directories(${NUKE_INCLUDE_PATH})
-
-message("include ${NUKE_INCLUDE_PATH}")
-message("lib ${NUKE_LIBRARY_PATH}")
+find_package(RapidJSON)
+include_directories((${RAPIDJSON_INCLUDE_PATH}))
 
 add_library(CryptomatteCpp SHARED
     Cryptomatte.cpp

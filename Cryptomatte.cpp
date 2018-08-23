@@ -7,11 +7,11 @@
 #include <DDImage/NukeWrapper.h>
 #include <DDImage/DDMath.h>
 #include <DDImage/Pixel.h>
-#include <DDImage/Metadata.h>
+#include <DDImage/MetaData.h>
 #include <DDImage/Enumeration_KnobI.h>
 
-#include <rapidjson/document.h>
-#include <rapidjson/stringbuffer.h>
+//#include <rapidjson/document.h>
+//#include <rapidjson/stringbuffer.h>
 
 #include <string>
 #include <cstring>
